@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/nlohmann_json-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
