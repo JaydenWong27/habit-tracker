@@ -14,27 +14,14 @@ void HabitManager::addHabit(const std::string& name) {
     std::cout << "Added: " << name << "\n";
 }
 
-bool HabitManager::markComplete(const std::string& name) {
-    auto* h = find(name);
-    if (!h) { std::cout << "(not found)\n"; return false; }
-    h->markComplete();
-    std::cout << "Marked complete: " << name << "\n";
-    return true;
-}
-
 void HabitManager::list() const {
     if (habits_.empty()) { std::cout << "(no habits yet)\n"; return; }
     for (const auto& h : habits_) {
         std::cout << "- " << h.getName()
-                  << " | streak: " << h.getStreak()
-                  << (h.isCompletedToday() ? " | done today" : " | not done")
-                  << "\n";
+          << " | streak: " << h.currentStreak()
+          << (h.isCompletedOn(Habit::todayISO()) ? " | done today" : " | not done")
+          << "\n";
     }
-}
-
-void HabitManager::nextDay() {
-    for (auto& h : habits_) h.nextDay();
-    std::cout << "Advanced to next day. (resets today’s flags)\n";
 }
 
 Habit* HabitManager::find(const std::string& name) {
@@ -68,3 +55,36 @@ bool HabitManager::load(const std::string& path) {
     std::cout << "Loaded " << habits_.size() << " habit(s) from " << path << "\n";
     return true;
 }
+
+bool HabitManager::markCompleteToday(const std::string& name) {
+    auto* h = find(name);
+    if (!h) { std::cout << "(not found)\n"; return false; }
+    h->markCompleteToday();
+    std::cout << "Marked today complete: " << name << "\n";
+    return true;
+}
+
+void HabitManager::weeklyReport() const {
+    if (habits_.empty()) { std::cout << "(no habits)\n"; return; }
+
+    std::cout << "\n=== Weekly Report (last 7 days) ===\n";
+    auto now = std::chrono::system_clock::now();
+
+    for (const auto& h : habits_) {
+        std::cout << h.getName() << " | streak: " << h.currentStreak() << "\n  ";
+
+        for (int i = 6; i >= 0; --i) {
+            auto t  = now - std::chrono::hours(24 * i);
+            std::time_t tt = std::chrono::system_clock::to_time_t(t);
+            std::tm tm = *std::localtime(&tt);
+
+            char buf[11];
+            std::strftime(buf, sizeof(buf), "%Y-%m-%d", &tm);
+            std::string date = buf;
+
+            std::cout << (h.isCompletedOn(date) ? "✔ " : "✘ ");
+        }
+        std::cout << "\n";
+    }
+}
+

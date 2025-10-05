@@ -1,23 +1,26 @@
 #pragma once
 #include <string>
+#include <set>
+#include <chrono>
 #include <nlohmann/json_fwd.hpp>
 
 class Habit {
 private:
     std::string name_;
-    int streak_ = 0;
-    bool completedToday_ = false;
+    std::set<std::string> completedDates_; // store ISO date strings (YYYY-MM-DD)
 
 public:
     explicit Habit(const std::string& habitName);
 
-    void markComplete();
-    void nextDay();                 // clears completedToday_
-    int  getStreak() const;
-    std::string getName() const;
-    bool isCompletedToday() const;
+    void markCompleteToday();
+    bool isCompletedOn(const std::string& date) const;
 
-    // JSON helpers
+    int  currentStreak() const;            // compute streak ending today
+    std::string getName() const;
+
     nlohmann::json toJson() const;
     static Habit fromJson(const nlohmann::json& j);
+
+    // Helper for dates
+    static std::string todayISO();
 };
