@@ -23,4 +23,18 @@ public:
 
     // Helper for dates
     static std::string todayISO();
+public:
+    explicit Habit(const std::string& habitName);
+
+    void markCompleteToday();
+    void unmarkToday();                 // NEW: allow toggling off today
+    bool isCompletedOn(const std::string& date) const;
+
+    int  currentStreak() const;
+    std::string getName() const;
+
+    nlohmann::json toJson() const;
+    static Habit fromJson(const nlohmann::json& j);
+
+    static std::string todayISO();
 };

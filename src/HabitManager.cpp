@@ -2,6 +2,9 @@
 #include <iostream>
 #include <fstream>
 #include <nlohmann/json.hpp>
+#include <chrono>
+#include <ctime>
+
 
 using nlohmann::json;
 
@@ -87,4 +90,14 @@ void HabitManager::weeklyReport() const {
         std::cout << "\n";
     }
 }
+bool HabitManager::setToday(const std::string& name, bool done) {
+    auto* h = find(name);
+    if (!h) { std::cout << "(not found)\n"; return false; }
+    if (done) h->markCompleteToday();
+    else      h->unmarkToday();
+    return true;
+}
+
+const std::vector<Habit>& HabitManager::getHabits() const { return habits_; }
+
 

@@ -25,6 +25,11 @@ public:
     bool save(const std::string& path) const;
     bool load(const std::string& path);
 
+    bool setToday(const std::string& name, bool done); // NEW
+
+    const std::vector<Habit>* getHabits() const;
+
+
 private:
     std::vector<Habit> habits_;
 

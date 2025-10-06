@@ -67,3 +67,6 @@ std::string Habit::todayISO() {
     std::strftime(buf, sizeof(buf), "%Y-%m-%d", &tm);
     return std::string(buf);
 }
+void Habit::unmarkToday() {
+    completedDates_.erase(todayISO());
+}
