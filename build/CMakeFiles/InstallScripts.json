@@ -2,7 +2,12 @@
 	"InstallScripts" : 
 	[
 		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/cmake_install.cmake",
-		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/nlohmann_json-build/cmake_install.cmake"
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/nlohmann_json-build/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-build/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-build/examples/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-build/examples/component/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-build/examples/dom/cmake_install.cmake",
+		"/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-build/doc/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

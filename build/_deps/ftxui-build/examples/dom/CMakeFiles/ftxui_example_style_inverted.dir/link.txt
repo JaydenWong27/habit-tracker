@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ftxui_example_style_inverted.dir/style_inverted.cpp.o -o ftxui_example_style_inverted  ../../libftxui-dom.a ../../libftxui-screen.a

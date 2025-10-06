@@ -717,6 +717,7 @@ CMakeFiles/habit_tracker.dir/src/Habit.cpp.o: /Users/jaydenwong/Desktop/Coding-P
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -1605,6 +1606,7 @@ CMakeFiles/habit_tracker.dir/src/HabitManager.cpp.o: /Users/jaydenwong/Desktop/C
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -2194,6 +2196,13 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/view_interface.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__split_buffer \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__std_mbstate_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/char_traits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/constexpr_c_functions.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
@@ -2202,10 +2211,14 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_code.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/error_condition.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__system_error/system_error.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/id.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/support/pthread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/find_index.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__tuple/ignore.h \
@@ -2370,6 +2383,7 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/compare \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/concepts \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdarg \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstddef \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdint \
@@ -2406,6 +2420,7 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ratio \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/set \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdexcept \
@@ -2417,6 +2432,7 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/system_error \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
@@ -2453,6 +2469,7 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sched.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdint.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
@@ -2577,11 +2594,68 @@ CMakeFiles/habit_tracker.dir/src/main.cpp.o: /Users/jaydenwong/Desktop/Coding-Pr
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdint.h \
+  _deps/ftxui-src/include/ftxui/component/animation.hpp \
+  _deps/ftxui-src/include/ftxui/component/captured_mouse.hpp \
+  _deps/ftxui-src/include/ftxui/component/component.hpp \
+  _deps/ftxui-src/include/ftxui/component/component_base.hpp \
+  _deps/ftxui-src/include/ftxui/component/component_options.hpp \
+  _deps/ftxui-src/include/ftxui/component/event.hpp \
+  _deps/ftxui-src/include/ftxui/component/mouse.hpp \
+  _deps/ftxui-src/include/ftxui/component/receiver.hpp \
+  _deps/ftxui-src/include/ftxui/component/screen_interactive.hpp \
+  _deps/ftxui-src/include/ftxui/component/task.hpp \
+  _deps/ftxui-src/include/ftxui/dom/canvas.hpp \
+  _deps/ftxui-src/include/ftxui/dom/deprecated.hpp \
+  _deps/ftxui-src/include/ftxui/dom/elements.hpp \
+  _deps/ftxui-src/include/ftxui/dom/flexbox_config.hpp \
+  _deps/ftxui-src/include/ftxui/dom/linear_gradient.hpp \
+  _deps/ftxui-src/include/ftxui/dom/node.hpp \
+  _deps/ftxui-src/include/ftxui/dom/requirement.hpp \
+  _deps/ftxui-src/include/ftxui/dom/take_any_args.hpp \
+  _deps/ftxui-src/include/ftxui/screen/box.hpp \
+  _deps/ftxui-src/include/ftxui/screen/color.hpp \
+  _deps/ftxui-src/include/ftxui/screen/deprecated.hpp \
+  _deps/ftxui-src/include/ftxui/screen/screen.hpp \
+  _deps/ftxui-src/include/ftxui/screen/string.hpp \
+  _deps/ftxui-src/include/ftxui/screen/terminal.hpp \
+  _deps/ftxui-src/include/ftxui/util/ref.hpp \
   _deps/nlohmann_json-src/include/nlohmann/detail/abi_macros.hpp \
   _deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp \
   /Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/include/Habit.h \
   /Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/include/HabitManager.h
 
+
+_deps/ftxui-src/include/ftxui/util/ref.hpp:
+
+_deps/ftxui-src/include/ftxui/screen/screen.hpp:
+
+_deps/ftxui-src/include/ftxui/screen/deprecated.hpp:
+
+_deps/ftxui-src/include/ftxui/screen/box.hpp:
+
+_deps/ftxui-src/include/ftxui/dom/elements.hpp:
+
+_deps/ftxui-src/include/ftxui/dom/deprecated.hpp:
+
+_deps/ftxui-src/include/ftxui/component/task.hpp:
+
+_deps/ftxui-src/include/ftxui/component/mouse.hpp:
+
+_deps/ftxui-src/include/ftxui/component/event.hpp:
+
+_deps/ftxui-src/include/ftxui/component/component_options.hpp:
+
+_deps/ftxui-src/include/ftxui/component/captured_mouse.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/thread:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/thread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/jthread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_source.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_shared_ptr.h:
 
 /Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/include/HabitManager.h:
 
@@ -2609,6 +2683,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/cpp_future.hpp:
 
 _deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/begin.hpp:
 
+_deps/ftxui-src/include/ftxui/screen/terminal.hpp:
+
 _deps/nlohmann_json-src/include/nlohmann/detail/macro_scope.hpp:
 
 _deps/nlohmann_json-src/include/nlohmann/detail/json_pointer.hpp:
@@ -2619,6 +2695,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/iterators/primitive_iterator.hpp
 
 _deps/nlohmann_json-src/include/nlohmann/detail/iterators/json_reverse_iterator.hpp:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/atomic_unique_lock.h:
+
 _deps/nlohmann_json-src/include/nlohmann/detail/iterators/iter_impl.hpp:
 
 _deps/nlohmann_json-src/include/nlohmann/detail/iterators/internal_iterator.hpp:
@@ -2628,6 +2706,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/input/parser.hpp:
 _deps/nlohmann_json-src/include/nlohmann/detail/input/lexer.hpp:
 
 _deps/nlohmann_json-src/include/nlohmann/detail/input/json_sax.hpp:
+
+_deps/ftxui-src/include/ftxui/component/screen_interactive.hpp:
 
 _deps/nlohmann_json-src/include/nlohmann/detail/input/binary_reader.hpp:
 
@@ -2739,6 +2819,10 @@ _deps/nlohmann_json-src/include/nlohmann/detail/output/binary_writer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_pid_t.h:
 
+_deps/ftxui-src/include/ftxui/dom/canvas.hpp:
+
+_deps/ftxui-src/include/ftxui/component/component.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_null.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_mode_t.h:
@@ -2794,6 +2878,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/__endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_state.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdlib.h:
 
@@ -2865,6 +2951,14 @@ _deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/string.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_callback.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/invocable.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sqlite3.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/perm_options.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/stdio.h:
@@ -2910,6 +3004,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/json_ref.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/mach/machine/_structs.h:
+
+_deps/ftxui-src/include/ftxui/dom/node.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cwchar:
 
@@ -3177,6 +3273,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/iterators/iterator_traits.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/unwrap_ref.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/this_thread.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/enable_insertable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/min_max.h:
@@ -3222,6 +3320,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_volatile.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/add_rvalue_reference.h:
+
+_deps/ftxui-src/include/ftxui/screen/color.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/align.h:
 
@@ -3298,6 +3398,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/std_fs.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort_heap.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
+
+_deps/ftxui-src/include/ftxui/dom/flexbox_config.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
@@ -3441,6 +3543,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/input/input_adapters.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/inverse_hyperbolic_functions.h:
 
+_deps/ftxui-src/include/ftxui/component/animation.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__math/gamma.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cstdlib:
@@ -3533,10 +3637,6 @@ _deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/distance.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/invocable.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_fd_clr.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/pthread/sched.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
@@ -3604,6 +3704,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/value_t.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sample.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/ios.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__thread/formatter.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/search_n.h:
 
@@ -3797,6 +3899,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/meta/call_std/end.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__configuration/platform.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/intrusive_list_view.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_standard_layout.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/_types/_off_t.h:
@@ -3844,6 +3948,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/macro_unscope.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/constructible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__concepts/common_reference_with.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/condition_variable:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/17/include/__stddef_header_macro.h:
 
@@ -4011,6 +4117,8 @@ _deps/nlohmann_json-src/include/nlohmann/json.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/queue:
 
+_deps/ftxui-src/include/ftxui/dom/take_any_args.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/remove_if.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/math.h:
@@ -4095,6 +4203,8 @@ _deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h:
 
+_deps/ftxui-src/include/ftxui/dom/linear_gradient.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/width_estimation_table.h:
@@ -4112,6 +4222,8 @@ _deps/nlohmann_json-src/include/nlohmann/json_fwd.hpp:
 _deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_arg_t.h:
+
+_deps/ftxui-src/include/ftxui/component/receiver.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__compare/ordering.h:
 
@@ -4142,6 +4254,8 @@ _deps/nlohmann_json-src/include/nlohmann/thirdparty/hedley/hedley.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h:
+
+_deps/ftxui-src/include/ftxui/dom/requirement.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/ctime:
 
@@ -4183,6 +4297,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/swap_allocator.h:
 
+_deps/ftxui-src/include/ftxui/screen/string.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__format/formatter_bool.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/arm/types.h:
@@ -4213,6 +4329,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_printf.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__stop_token/stop_token.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/binary_search.h:
@@ -4224,6 +4342,8 @@ _deps/nlohmann_json-src/include/nlohmann/detail/string_escape.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/is_partitioned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/count.h:
+
+_deps/ftxui-src/include/ftxui/component/component_base.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/none_of.h:
 

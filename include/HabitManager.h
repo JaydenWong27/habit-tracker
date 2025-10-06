@@ -2,38 +2,41 @@
 #include "Habit.h"
 #include <vector>
 #include <string>
+#include <sqlite3.h>
 
 class HabitManager {
 public:
-    // CRUD
+    HabitManager();                       // constructor
+    ~HabitManager();                      // destructor
+
+    // open a database file (call this at startup)
+    bool openDB(const std::string& path);
+
     void addHabit(const std::string& name);
-
-    // Mark "today" complete for a specific habit (replaces markComplete)
     bool markCompleteToday(const std::string& name);
-
-    // Display all habits with basic info
     void list() const;
+    void weeklyReport() const;
+    bool loadFromDB(); 
 
-    // OPTIONAL now that we track dates; you can delete this if unused.
-    // If you keep it, it can be a no-op or used to simulate advancing the day.
-    void nextDay();
-
-    // Reports / analytics
-    void weeklyReport() const;  // NEW: show last 7 days with ✔/✘ per habit
-
-    // persistence
+    // keep JSON save/load if you want to export
     bool save(const std::string& path) const;
     bool load(const std::string& path);
 
-    bool setToday(const std::string& name, bool done); // NEW
+    // toggle today's completion
+    bool setToday(const std::string& name, bool done);
 
-    const std::vector<Habit>* getHabits() const;
-
+    // expose habits to the UI
+    const std::vector<Habit>& getHabits() const;
 
 private:
     std::vector<Habit> habits_;
 
-    // Lookup helpers
+    // NEW: SQLite database handle
+    sqlite3* db_ = nullptr;
+
     Habit* find(const std::string& name);
     const Habit* find(const std::string& name) const;
+
+    // helper to get habit id from DB (will implement in .cpp)
+    int getHabitId(const std::string& name);
 };

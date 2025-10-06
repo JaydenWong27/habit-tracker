@@ -1,6 +1,14 @@
 [
   {
-    "dates": [],
+    "dates": [
+      "2025-10-05"
+    ],
     "name": "Workout"
+  },
+  {
+    "dates": [
+      "2025-10-05"
+    ],
+    "name": "Make A coding Project"
   }
 ]

@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ftxui_example_vbox_hbox.dir/vbox_hbox.cpp.o -o ftxui_example_vbox_hbox  ../../libftxui-dom.a ../../libftxui-screen.a

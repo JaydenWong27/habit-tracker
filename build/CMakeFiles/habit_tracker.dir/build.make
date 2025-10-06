@@ -127,6 +127,10 @@ habit_tracker: CMakeFiles/habit_tracker.dir/src/main.cpp.o
 habit_tracker: CMakeFiles/habit_tracker.dir/src/Habit.cpp.o
 habit_tracker: CMakeFiles/habit_tracker.dir/src/HabitManager.cpp.o
 habit_tracker: CMakeFiles/habit_tracker.dir/build.make
+habit_tracker: _deps/ftxui-build/libftxui-component.a
+habit_tracker: _deps/ftxui-build/libftxui-dom.a
+habit_tracker: _deps/ftxui-build/libftxui-screen.a
+habit_tracker: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/libsqlite3.tbd
 habit_tracker: CMakeFiles/habit_tracker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable habit_tracker"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/habit_tracker.dir/link.txt --verbose=$(VERBOSE)

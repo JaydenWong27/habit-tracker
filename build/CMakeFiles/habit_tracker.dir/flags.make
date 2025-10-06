@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/include -I/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/nlohmann_json-src/include
+CXX_INCLUDES = -I/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/include -I/Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/nlohmann_json-src/include -isystem /Users/jaydenwong/Desktop/Coding-Projects/Habit-Tracker/build/_deps/ftxui-src/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

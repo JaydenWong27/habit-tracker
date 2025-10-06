@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/ftxui_example_print_key_press.dir/print_key_press.cpp.o -o ftxui_example_print_key_press  ../../libftxui-component.a ../../libftxui-dom.a ../../libftxui-screen.a
